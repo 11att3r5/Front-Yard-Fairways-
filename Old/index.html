@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FrontYard Fairways</title>
+	<meta charset="utf-8">
+	<meta name="description" content="FrontYard Fairways Web Page">
+	<meta name="author" content="Alexander Grimes">
+	<meta name="robots" content="index">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script src= "http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+
+	<body id="body">
+	<div id= "wrapper">
+
+		<header id="header">
+		<div id= "slideshow">
+			<script type="text/javascript">
+				var image1 = new Image()
+				image1.src = "images/12.jpg"
+				var image2 = new Image()
+				image2.src = "images/h4.jpg"
+				var image3 = new Image()
+				image3.src = "images/image4.jpg"
+			</script>
+				
+				<img src="images/1.jpg" width="100%" height="200" name="slide" />
+			<script type="text/javascript">
+				        var step=1;
+				        function slideit()
+				        {
+				            document.images.slide.src = eval("image"+step+".src");
+				            if(step<3)
+				                step++;
+				            else
+				                step=1;
+				            setTimeout("slideit()",2500);
+				        }
+				        slideit();
+			</script>
+		</div>
+		<div id="headingtxt">
+			<h1><font color=yellow>F</font>ront<font color=yellow>Y</font>ard <font color=yellow>F</font>airways</h1>
+			<h2>"Fairways at a fair price"</h2>
+		</div>
+		</header>
+		<nav class="nav">
+			<a href="index.htm" ><div id="link"><p>Home</p></div></a>
+			<a href="Services.html" ><div id="link"><p>Services</p></div></a>
+			<a href="Customers.html" ><div id="link"><p>Our Customers</p></div></a>
+			<a href="About.html" ><div id="link"><p>About</p></div></a>
+			<a href="Contact.html" ><div id="link"><p>Contact Us</p></div></a>	
+		</nav>
+		<main id="content">
+		<div id="homeintro">
+			<h1>Welcome to FrontYard Fairways</h1>
+			<p>
+				Providing care for your lawn, trees, or garden can often pose a difficult dilemma. You want to have a green lawn, healthy-looking plants, and productive trees, but you also understand the importance of caring for the environment.
+			</p>
+			<p>
+				► At FrontYard Fairwats Orlando, we will make your lawn, trees and shrubs green, healthy and beautiful in an environmentally safe manner. We utilize the patent pending natural fertilizer products custom blended by FrontYard Fairways, Inc. These natural fertilizers are non-toxic and designed to feed your turf, trees, shrubs, and flowers as well as stimulate soil activity which builds sustainability.
+			</p>
+			<p>
+				► Your lawn and landscape will receive all the nutrients; including nitrogen, phosphorus, and potassium, that your turf, garden, and trees need to thrive. These nutrients help promote steady growth, balance pH levels, strengthen roots, increase color, and improve the condition of the topsoil.
+			</p>
+			<p>
+				► FrontYard Fairways of Orlando team is committed to providing superior services and competitive pricing to all other fertilization companies.
+			</p>
+			<p>
+				► FrontYard Fairways knows how to get your lawn healthy. Enjoy custom care for your grass type, climate, soil and weed-control needs. Let Us Help Your Landscape Thrive!
+			</p>
+		</div>
+			
+		</main>
+		<div id="push"></div>
+		<footer id="footer">
+			<p>&copy; FrontYard Fairways 2015. All rights reserved.</p> <p><a href="http://validator.w3.org/check/referer"><img src="http://www.netwebdev.net/webclass/images/valid-html5.png" alt="Valid HTML5!" height="15" width="80" /></a></p>
+		</footer>
+	</div>
+	</body>
+</html>

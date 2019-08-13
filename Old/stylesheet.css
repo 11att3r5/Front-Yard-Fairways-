@@ -1,0 +1,288 @@
+*
+{
+	box-sizing:border-box;
+}
+
+html
+{
+	min-height: 100%;
+	position: relative;
+	height: 100%;
+	font-style: Arial, Arial, Helvetica, sans-serif;
+}
+
+
+#body {
+	width: 80%;
+	height: 100vh;
+	border: 1px solid #2f7501;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	overflow: inherit;
+	background-color: #c0d787;
+	color: white;
+}
+
+#wrapper
+{
+	background-color: #2a6812;
+	height: 100%;
+	margin-top: -10pxl
+}
+
+#header
+{
+	width: 100%;
+	height: 200px;
+	background-color: #2a6812;
+	position: relative;
+}
+
+#slideshow 
+{
+	position: absolute;
+	width: 100%;
+
+}
+
+#headingtxt
+{
+	display: block;
+	z-index: 100;
+	height: 50px;
+
+}
+
+#headingtxt h1, h2
+{
+	margin-right: 5%;
+
+}
+
+#headingtxt h1
+{
+	font-size: 2em;
+}
+#headingtxt h2
+{
+	font-size: 1.5em;
+}
+
+.nav
+{
+	border-right: 1px solid green;
+	width: 100%;
+	height: 80px;
+	margin-bottom: -80px;
+	z-index: 1;
+	position: relative;
+
+}
+a
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a:hover
+{
+	color:yellow;
+}
+
+
+a:active
+{
+	color: green;
+}
+
+#link
+{
+	height: 100%;
+	width: 20%;
+	display: inline-block;
+	float: left;
+	border-right: 1px solid green;
+	border-left: 1px solid #2f7501;
+	border-bottom: none;
+	text-decoration: none;
+	text-align: center;
+	padding: none;
+	 /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#74c133), to(#216407));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #74c133, #216407);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #74c133, #216407);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #74c133, #216407);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #74c133, #216407);
+}
+
+.sticky 
+{
+	border: 1px solid green;
+	margin-left: -1px;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    box-shadow: 0px 2px 5px #374508;
+}
+.nav div p 
+{
+	padding-top: 10px;
+	font-size: 1em;
+}
+
+#content
+{
+	border: 1px solid green;
+	border-bottom: none;
+	position: relative;
+	padding-top: 130px;
+	display: block;
+	width: 100%;
+	margin: none;
+	text-align: left;
+	background-color: #2a6812;
+	font-size: 20px;
+	margin-bottom: -20px;
+
+
+}
+
+#footer, #push
+{
+	clear: both;
+	background-color: #2a6812;
+}
+
+#footer
+{
+	border: 1px solid #2f7501;
+	position:relative;
+	margin: 0 auto;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	clear: both;
+	background-color: #2a6812;
+}
+
+#comment
+{
+	padding-left: 20px;
+	clear: both;
+}
+
+#comment input
+{
+	border-radius: 5px;
+}
+
+#tbldiv table
+{
+	
+	border: 1px dotted green;
+	margin: auto;
+}
+
+td
+{
+	max-height:200;
+	max-width: 200;
+	border:1px solid black;
+	padding: 5px;
+	margin: auto;
+	text-align: center; 
+	vertical-align: middle;
+	background-color: #c0d787;
+	
+}
+
+#spring
+{
+	margin: auto;
+	float: right;
+	width: 570px;
+	height: 400px;
+	position: relative;
+	background-color: #2a6812;
+
+}
+
+#homeintro
+{
+	width: 50%;
+	margin-left: 20px;
+}
+
+#serviceslist
+{
+	background-color: #c0d787;
+	border: 3px solid #7b4e31;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	width: 300px;
+	margin-left: 10px;
+	color: #1c542f;
+	font-size: 20px;
+
+
+}
+
+#hservice
+{
+	margin-left: 30px;
+	text-decoration: underline;
+}
+
+#consultation
+{
+	width: 50%;
+	margin-left: 20px;
+	font-size: 20px;
+	float: left;
+}
+
+#contactimg
+{
+	float: right;
+	margin-right: 20px;
+}
+
+#about
+{
+	position: relative;
+	margin-bottom: -20px;
+}
+
+#about p
+{
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#about img
+{
+	margin-left: 20px;
+	margin-right: 10px;
+	position: relative;
+}
+#about h1
+{
+	text-align: center;
+}

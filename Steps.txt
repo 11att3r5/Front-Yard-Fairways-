@@ -1,0 +1,35 @@
+Steps
+1. Cus-login & create sessionx
+	xcreate sesion variables to use in SQL and other stuff   
+	xcustomer sign up variables and header functions		 
+
+2. Cus-Home show info in correct format
+	xget info from customers table
+	xget info from Services table
+	-get total account balance 								 
+
+3. xCus-home enable editable info							 
+
+4. xEmployee login & create session							 
+
+5. Employee show info in correct format
+	xshow employee info
+	xshow time off request
+	xrequest time off
+	xshow assignments 										
+
+6. Employee Searches & editable data 						
+	xshow Customer info
+	xseach Customer 										
+	xmake results sortable
+	xupload photo
+
+7. Admin
+	-search employees 										
+	-add assignments 										
+
+8. Navigate function		 								
+
+9. Customer payments and invoices/emails					
+
+10. Inbox -_-

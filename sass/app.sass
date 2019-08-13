@@ -1,0 +1,228 @@
+@import buttons
+@import dashboard
+@import services-buttons
+@import grid
+@import home
+@import services
+
+html, body
+	margin: 0px
+	padding: 0px
+	height: 100vh
+	font-family: helvetica
+	background-color: #F2EDE6
+
+body
+	#outer-wrapper
+		height: 100vh
+
+#content
+	min-height: 80vh
+	max-width: 1600px
+	margin: auto
+	background-color: rgba(250, 249, 249, 0.8)
+	box-shadow: 0px 0px 20px #000
+.content-wrap
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	min-height: 80vh
+	max-width: 1600px
+	background-image: url("../images/customer-background.jpg")
+
+h1,h2,h3,h4,p
+	margin: 0
+
+@import form-styles
+
+#header
+	width: 100%
+	height: 50%
+	max-height: 400px
+	background-image: url("../images/12background.jpg")
+	background-repeat: no-repeat
+	background-position: center 0px
+	background-attachment: fixed
+	background-size: 1920px 900px
+.nav-bar
+	max-width: 1600px
+	min-width: 600px
+	width: 60%
+	margin: auto
+
+#header-text
+	width: fit-content
+	margin: auto
+	font-size: 4rem
+	font-weight: 1
+	font-family: 'Lemonada', cursive
+
+.right
+	float: right
+	margin-right: 20px
+	div
+		display: inline-block
+		a
+			text-decoration: none
+			color: #FFF
+			padding: 10px 24px
+			border-radius: 25px
+
+#nav-container
+	width: 100%
+	display: inline-block
+	margin-top: 16px
+
+#navlist
+	list-style: none
+	padding: 0
+	margin: 0
+	li
+		margin: 20px 15px
+		text-align: center
+		display: list-item
+		a 
+			text-decoration: none
+			text-align: left
+			font-size: 18px
+			font-weight: bold
+			display: block
+			color: #266814
+			margin: 0
+			white-space: nowrap
+			&:hover
+				color: rgb(102, 170, 8)
+
+@media(min-width: 768px)
+	ul 
+		display: flex
+		li 
+			flex: 1 1 0
+#wrapper
+	height: 100vh
+#footer
+	text-align: center
+	width: 100%
+	background-color: #0F4E43
+	p 
+		margin: 0
+		padding: 10px
+
+hr 
+	height: 3px
+	background-color: grey
+
+#plans
+	width: 100%
+	.plan
+		width: 100%
+		height: auto
+		margin: 0px
+		display: none
+		div 
+			display: inline-block
+			flex: 1 1 0
+			text-align: center
+
+#service-amount
+	display: inline-block
+	text-align: center
+	margin-left: 8%
+
+#add-services
+	margin-left: 8%
+	#input-flex
+		margin-right: 8%
+		display: flex
+		input
+			flex: 1 1 0
+			margin: 0	
+
+table,th,td
+	border: 1px solid #000
+
+table
+	width: 100%
+
+th,td 
+	width: 20%
+	min-height: 20px
+
+.on 
+	display: block
+
+.off
+	display: none
+#admin
+	padding: 20px
+#assignments
+	h2, h3
+		margin-left: 20px
+	table 
+		margin: auto
+#cusSearch
+	h2
+		max-width: 50%
+		margin: auto
+	form
+		max-width: 50%
+		margin: auto
+	table
+		max-width: 1600px
+		margin: auto
+.cusHome
+	width: 80%
+	height: 100%
+	max-width: 1600px
+	border-radius: 25px
+	display: flex 
+	flex-direction: column
+	align-items: top
+	background-color: rgba(250, 249, 249, 0.8)
+	margin: auto
+	div
+		margin: 20px
+		min-height: 30px
+		.editBtn
+			float: right
+		p 
+			margin-left: 20px
+		div 
+			margin: 0
+		form
+			p 
+				display: block
+	#top 
+		margin-bottom: 0
+	#cus-logout
+		a
+			margin-top: 24px
+
+#login
+	max-width: 700px
+	margin: auto
+	display: flex
+	flex-direction: row
+	border: 1px solid #000
+	padding: 16px
+	background-color: #98BFB8
+	#login-text
+		width: 70%
+		min-width: 400px
+	#login-form
+		width: 30%
+		fieldset
+			background-color: #408075
+			border: 1px solid #0F4E43
+			div 
+				padding: 8px
+			legend
+				background-color: #FFF
+				padding: 5px
+				border: 1px solid #0F4E43
+		.non-action
+			margin-top: 8px
+			padding: 8px
+			a 
+				color: #fff

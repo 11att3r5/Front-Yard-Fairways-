@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FrontYard Fairways</title>
+	<meta charset="utf-8">
+	<meta name="description" content="FrontYard Fairways Conatact Page">
+	<meta name="author" content="Alexander Grimes">
+	<meta name="robots" content="index">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script src= "http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+
+	<body id="body">
+		<div id= "wrapper">
+
+				<header id="header">
+		<div id= "slideshow">
+			<script type="text/javascript">
+				var image1 = new Image()
+				image1.src = "images/12.jpg"
+				var image2 = new Image()
+				image2.src = "images/h4.jpg"
+				var image3 = new Image()
+				image3.src = "images/image4.jpg"
+			</script>
+				
+				<img src="images/1.jpg" width="100%" height="200" name="slide" />
+			<script type="text/javascript">
+				        var step=1;
+				        function slideit()
+				        {
+				            document.images.slide.src = eval("image"+step+".src");
+				            if(step<3)
+				                step++;
+				            else
+				                step=1;
+				            setTimeout("slideit()",2500);
+				        }
+				        slideit();
+			</script>
+		</div>
+		<div id="headingtxt">
+			<h1><font color=yellow>F</font>ront<font color=yellow>Y</font>ard <font color=yellow>F</font>airways</h1>
+			<h2>"Fairways at a fair price"</h2>
+		</div>
+		</header>
+		<nav class="nav">
+			<a href="index.htm" ><div id="link"><p>Home</p></div></a>
+			<a href="Services.html" ><div id="link"><p>Services</p></div></a>
+			<a href="Customers.html" ><div id="link"><p>Our Customers</p></div></a>
+			<a href="About.html" ><div id="link"><p>About</p></div></a>
+			<a href="Contact.html" ><div id="link"><p>Contact Us</p></div></a>	
+		</nav>
+		<main id="content">
+		<div id = "consultation">
+		<p>
+			Contact us by phone or fill out the form below for a consultation and we will answer any other questions or comments. Simply enter your name, email address, phone number, availability, how you would like to be contacted and purpose. Consultations are free!
+		</p>
+		<p>
+			<h1>407-555-0126</h1>
+		</p>
+		</div>
+		<div id="contactimg">
+			<img src="images/images5.jpg">
+		</div>
+		<br>
+		<div>
+			<form name= "comment" method="post" id="comment" action="mail_process.php">
+				<fieldset>
+				<legend>Customer Information</legend>
+				<label for="name">Name: <br> <input type="text" name="name" id="name" accesskey="N" ></label><br></br>
+				<input type="hidden" id="recipient" name="recipient" value="lxgrms@gmail.com">
+				<input type="hidden" id="redirect" name="redirect" value="ConfirmPage.html">
+				<input type="hidden" id="subject" name="subject"value="Confirmed!">
+				<label for="phone">Phone Number:<br><input type="text" name="phone" id="phone" accesskey="P"></label><br><br>
+				<label for="email">E-mail:<br> <input type="text" name="email" id="email" accesskey="M"></label><br></br>
+				</fieldset>
+				How would you like to recieve contact?<br>
+				<input type="radio" name="news" id="news" value="Yes">Phone</input><br>
+				<input type="radio" name="news" id="news" value="No">Email</input><br>
+				Service Requested:<br>
+				<input type="checkbox" name="lawn" id="lawn" value="Lawn">Lawn</input><br>
+				<input type="checkbox" name="garden" id="garden" value="Garden">Garden</input><br>
+				<input type="checkbox" name="trees" id="tress" value="Trees">Trees</input><br>
+				<input type="checkbox" name="landscape" id="landscape" value="Landscaping">Landscaping</input><br>
+				<select>
+					<option>Availabilty</option>
+					<option value="morning">Morning</option>
+					<option value="noon">Noon</option>
+					<option value="afternoon">Afternoon</option>
+					<option value="evening">Evening</option>
+				</select>
+				<br>
+				<label for="comments">Comments</label><br>
+				<textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+				<br>
+				<br>
+				<input type="submit" name="submit" id="mysubmit" value="submit">
+				<br>
+			</form>
+		</div>	
+		</main>
+		<div id="push"></div>
+		</div>
+	</body>
+	<footer id="footer">
+			<p>&copy; FrontYard Fairways 2015. All rights reserved.</p> <p><a href="http://validator.w3.org/check/referer"><img src="http://www.netwebdev.net/webclass/images/valid-html5.png" alt="Valid HTML5!" height="15" width="80" /></a></p>
+	</footer>
+</html>

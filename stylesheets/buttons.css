@@ -1,0 +1,30 @@
+.button {
+  color: yellow;
+  border: 3px solid yellow;
+  text-align: center;
+  width: 20rem;
+  border-radius: 20px 20px;
+  background: green; }
+
+a {
+  text-decoration: none; }
+
+#loginwrap {
+  position: absolute;
+  top: 30%;
+  left: 37%; }
+  #loginwrap a {
+    text-decoration: none; }
+    #loginwrap a .login {
+      margin: auto;
+      margin-top: 20px; }
+      #loginwrap a .login p {
+        font-size: 1.1rem; }
+
+.service {
+  width: 10rem;
+  display: table; }
+  .service p {
+    padding: 10px 25px;
+    margin: 0px;
+    font-size: 18px; }

@@ -1,0 +1,6 @@
+Read me
+
+The Javascript or Jquery I used were on two objects.
+* The slideshow in the header.
+* The navigation bar that sticks to the top of the document when scrolled past the header.
+The Multimedia is located in the SERVICES page.

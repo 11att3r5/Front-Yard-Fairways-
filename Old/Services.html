@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>FrontYard Fairways: Services</title>
+	<meta charset="utf-8">
+	<meta name="description" content="FrontYard Fairways Web Page">
+	<meta name="author" content="Alexander Grimes">
+	<meta name="robots" content="index">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-1.11.2.min.js"></script>
+	<script src= "http://code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+
+</head>
+
+	<body id="body">
+		<div id= "wrapper">
+		<header id="header">
+		<div id= "slideshow">
+			<script type="text/javascript">
+				var image1 = new Image()
+				image1.src = "images/12.jpg"
+				var image2 = new Image()
+				image2.src = "images/h4.jpg"
+				var image3 = new Image()
+				image3.src = "images/image4.jpg"
+			</script>
+				
+				<img src="images/1.jpg" width="100%" height="200" name="slide" />
+			<script type="text/javascript">
+				        var step=1;
+				        function slideit()
+				        {
+				            document.images.slide.src = eval("image"+step+".src");
+				            if(step<3)
+				                step++;
+				            else
+				                step=1;
+				            setTimeout("slideit()",2500);
+				        }
+				        slideit();
+			</script>
+		</div>
+		<div id="headingtxt">
+			<h1><font color=yellow>F</font>ront<font color=yellow>Y</font>ard <font color=yellow>F</font>airways</h1>
+			<h2>"Fairways at a fair price"</h2>
+		</div>
+		</header>
+		<nav class="nav">
+			<a href="index.htm" ><div id="link"><p>Home</p></div></a>
+			<a href="Services.html" ><div id="link"><p>Services</p></div></a>
+			<a href="Customers.html" ><div id="link"><p>Our Customers</p></div></a>
+			<a href="About.html" ><div id="link"><p>About</p></div></a>
+			<a href="Contact.html" ><div id="link"><p>Contact Us</p></div></a>	
+		</nav>
+		<main id="content">
+		<div>
+			<div id="spring">
+				<p>Enjoy these tips for spring!</p>
+				<object width="560" height="315" data="https://www.youtube.com/embed/lXNK8JTmPHE" frameborder="0" allowfullscreen></object>
+			</div>
+			<h1 id="hservice">
+				Services
+			</h1>
+		<div id="serviceslist">
+			<ul>
+			<h3>Lawn</h3>
+				<li>Mowing</li>
+				<li>Leaf Removal</li>
+				<li>Edging</li>
+				<br>
+			</ul>
+		</div>
+		<div id="serviceslist">
+			<ul>
+			<h3>Garden</h3>
+				<li>Mulch</li>
+				<li>Hedges</li>
+				<li>Weeding</li>
+				<li>Flowers</li>
+			</ul>
+			<br>
+		</div>
+		<div id="serviceslist">
+			<ul>
+			<h3>Trees</h3>
+				<li>Trimming</li>
+				<li>Prunning</li>
+				<li>Removal</li>
+			</ul>
+			<br>
+		</div>
+		<div id="serviceslist">
+			<ul>
+			<h3>Landscaping</h3>
+				<li>Irrigation</li>
+				<li>Plants</li>
+				<li>Shaping</li>
+			</ul>
+			<br>
+		</div>
+			
+		</main>
+		<div id="push"></div>
+	</div>
+		
+	</body>
+	<footer id="footer">
+			<p>&copy; FrontYard Fairways 2015. All rights reserved.</p> <p><a href="http://validator.w3.org/check/referer"><img src="http://www.netwebdev.net/webclass/images/valid-html5.png" alt="Valid HTML5!" height="15" width="80" /></a></p>
+	</footer>
+</html>
